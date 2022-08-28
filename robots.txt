@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://koreanckh.github.io/sitemap/sitemap-index.xml
+Host: https://koreanckh.github.io
