@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/AWS",
+    "result": {"pageContext":{"currentCategory":"AWS","categories":["All","AWS","블로그","잡담","featured"],"edges":[{"node":{"id":"4c49bcbc-0d62-5a17-be4f-7bc7da339cbf","excerpt":"amazon-linux 로 생성한 EC2에서 진행하였습니다. 1. EC2에서 git, java 설치 git 설치 java 설치(각자 버전에 맞게) 2. git에서 소스 내려받기 3. 패키지 빌드 프로젝트 루트 디렉토리에서 실행 (1) maven maven 빌드 후에 경로에  확장자명으로 파일이 생성된다. 정상적으로 빌드 되었는지 실행해보자. (2) gradle gradle 빌드 후에는 이하에  파일이 생성된다. 마찬가지로 오류 없이 빌드 되는지 실행해본다. 4. deploy.sh 작성 (1) deploy.sh 샘플 (2) gradle 빌드 후 서버 구동시 주의사항 gradle 빌드시에 따로 설정을 해주지 않으면 파일과 파일 두개가 생긴다. 파일은 의존성이 포함되지 않은 파일이기 때문에 파일 용량도 작고 정상적으로 서버가 구동되지 않는다. 따라서 서버 실행 스크립트를 수정해주거나 gradle 빌드시에 파일이 생성되지 않도록 파일을 수정 해주어야 한다.","fields":{"slug":"/aws-001/"},"frontmatter":{"categories":"AWS","title":"AWS EC2에 Spring boot 배포하기!(작성중..)","date":"August 28, 2022"}},"next":{"fields":{"slug":"/algorithm-001/"}},"previous":null}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
