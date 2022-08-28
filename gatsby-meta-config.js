@@ -1,6 +1,6 @@
 module.exports = {
   title: `시행착오를 겪다`,
-  description: `줌코딩의 개발일기`,
+  description: `느낌 정도만 알고있던 지식의 퍼즐을 맞춰보자.`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://koreanckh.github.io/`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
@@ -43,7 +43,7 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2021.02 ~',
+        date: '2022.08 ~',
         activity: '개인 블로그 개발 및 운영',
         links: {
           post: '/gatsby-starter-zoomkoding-introduction',
@@ -72,11 +72,12 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        title: '개발 블로그 테마 개발',
+        title: '나는 누구인가',
         description:
-          '개발 블로그를 운영하는 기간이 조금씩 늘어나고 점점 많은 생각과 경험이 블로그에 쌓아가면서 제 이야기를 담고 있는 블로그를 직접 만들어보고 싶게 되었습니다. 그동안 여러 개발 블로그를 보면서 좋았던 부분과 불편했던 부분들을 바탕으로 레퍼런스를 참고하여 직접 블로그 테마를 만들게 되었습니다.',
+          '그동안 주먹구구식으로 코딩을 해온것 같아 조금 더 탐구하는 마음으로 개발을 해보고자 블로그를 작성해보려고 합니다. 정확하지 않은 내용이 있을 수 있으니 참고 및 질타는 언제나 환영입니다!' +
+            '감사합니다 :D',
         techStack: ['gatsby', 'react'],
-        thumbnailUrl: 'blog.png',
+        thumbnailUrl: 'sample.png',
         links: {
           post: '/gatsby-starter-zoomkoding-introduction',
           github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',

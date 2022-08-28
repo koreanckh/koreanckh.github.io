@@ -8,7 +8,7 @@ function ProjectSection({ projects }) {
   if (!projects || projects.length < 2) return null;
   return (
     <div className="project-section">
-      <SectionHeader title="Projects" />
+      <SectionHeader title="About Me" />
       {projects.map((project, index) =>
         index === 0 ? null : (
           <div className="project" key={index}>
