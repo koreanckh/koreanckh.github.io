@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/잡담",
+    "result": {"pageContext":{"currentCategory":"잡담","categories":["All","블로그","잡담","featured"],"edges":[{"node":{"id":"80d44596-f2d1-5f75-8e5d-4a4565c2917f","excerpt":"1. 테스트 첫글이 제대로 보이는지 테스트","fields":{"slug":"/algorithm-001/"},"frontmatter":{"categories":"블로그 잡담","title":"첫글 테스트","date":"August 28, 2022"}},"next":{"fields":{"slug":"/gatsby-github-blog/"}},"previous":null}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
