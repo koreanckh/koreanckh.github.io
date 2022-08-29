@@ -18,6 +18,7 @@
 
 ## 5. AWS
 - [ ] EC2 서버 설정
+- [ ] Github Action + AWS EC2 CodeDeploy + S3를 이용하여 자동 배포
 - [ ] S3 설정 + DB 설치 + EC2 연동
 
 ## 6. Linux
