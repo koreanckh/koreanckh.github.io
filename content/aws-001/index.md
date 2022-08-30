@@ -12,7 +12,7 @@ categories: AWS
 
 - git 설치
 
-```bash
+```shell
 # git 설치
 sudo yum install git -y
 
@@ -22,7 +22,7 @@ git version
 
 - java 설치(각자 버전에 맞게)
 
-```bash
+```shell
 # OpenJDK 11 설치
 sudo amazon-linux-extras install java-openjdk11
 
@@ -40,18 +40,18 @@ git clone {repository URL}
 > 프로젝트 루트 디렉토리에서 실행
 
 ### (1) maven
-```bash
+```shell
 # 메이븐 빌드
 mvn package
 ```
 
 maven 빌드 후에 `/target`경로에 `.jar` 확장자명으로 파일이 생성된다. 정상적으로 빌드 되었는지 실행해보자.
-```bash
+```shell
 java -jar target/demo-0.0.1-SNAPSHOT.jar
 ```
 
 ### (2) gradle
-```bash
+```shell
 # 1. "./gradlew" 파일에 대한 권한 부여
 sudo chmod 777 ./gradlew
 
@@ -60,7 +60,7 @@ sudo chmod 777 ./gradlew
 ```
 
 gradle 빌드 후에는 `/build/libs`이하에 `.jar` 파일이 생성된다. 마찬가지로 오류 없이 빌드 되는지 실행해본다.
-```bash
+```shell
 java -jar build/libs/demo-0.0.1-SNAPSHOT.jar
 ```
 
@@ -68,7 +68,7 @@ java -jar build/libs/demo-0.0.1-SNAPSHOT.jar
 
 ### (1) deploy.sh 샘플
 ```shell
-#!/usr/bin/env bash
+#!/usr/bin/env shell
 
 REPOSITORY=/home/{user-name}}/{project-name}
 
