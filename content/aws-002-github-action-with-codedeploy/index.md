@@ -61,8 +61,8 @@ sudo service codedeploy-agent start
 `The AWS CodeDeploy agent is running`라는 메시지가 나오면 성공!
 
 
-> CodeDeploy 설치 : https://docs.aws.amazon.com/ko_kr/codedeploy/latest/userguide/codedeploy-agent-operations-install-linux.html
-> 리전별 리소스 키트 버킷 이름 : https://docs.aws.amazon.com/ko_kr/codedeploy/latest/userguide/resource-kit.html#resource-kit-bucket-names
+> * CodeDeploy 설치 : https://docs.aws.amazon.com/ko_kr/codedeploy/latest/userguide/codedeploy-agent-operations-install-linux.html
+> * 리전별 리소스 키트 버킷 이름 : https://docs.aws.amazon.com/ko_kr/codedeploy/latest/userguide/resource-kit.html#resource-kit-bucket-names
 
 AWS에서 서버별로 CodeDeploy 설치방법을 가이드하고 있다.
 Amazon Linux 기준으로 세팅을 하였고, Ubuntu나 Windows 서버를 사용하고 있다면 참고 링크에서 찾아보면 간편하게 설치할 수 있다. 
