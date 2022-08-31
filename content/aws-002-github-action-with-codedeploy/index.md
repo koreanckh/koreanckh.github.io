@@ -156,5 +156,5 @@ jobs:
 ![aws-002-2.png](aws-002-2.png)
 `secrets`변수들은 `Settins > Secrets > Actions'에 설정을 해두고 사용했다.
 
-앞에서 살짝 언급했듯이 Github Action에서의 역할은 **Github 자체 서버에서 소스를 빌드**하고, 그 파일을 **압축하여 AWS S3에 업로드** 후 **AWS CodeDeploy를 실행**할 뿐이다.  
+앞에서 살짝 언급했듯이 Github Action에서의 역할은 **Github 자체 서버에서 소스를 빌드**하고, 그 파일을 **압축하여 AWS S3에 업로드** 후 **AWS CodeDeploy를 실행**명령을 내려주는 것이다.  
 
