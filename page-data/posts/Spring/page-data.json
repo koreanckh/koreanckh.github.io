@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/Spring",
+    "result": {"pageContext":{"currentCategory":"Spring","categories":["All","Spring","블로그","AWS","Git","잡담","featured"],"edges":[{"node":{"id":"0ed4b80e-6135-5d45-a97b-7073f984af4b","excerpt":"0. 개요 서비스가 많아지는데 일일이 헬스체크할 필요가 생겨났는데 어떻게 만드는게 좋을지 검색하던 참에 Spring Actuator라는 것을 알게 되었고, 추가적으로 uptime-kuma라는 오픈소스가 제공되고 있기에 이를 사용해서 헬스체크 서버를 만들어 보기로 하였다. 이런 고마운 천재들… 1. Spring Actuator 설정 https://incheol-jung.gitbook.io/docs/study/srping-in-action-5th/chap-16. 처음에는 서버가 정상적으로 잘 작동하고 있는지 요소들을 확인하여 기능별로 헬스체크용 api를 만들어두고 Client 서버에서 호출할 생각이었는데, Spring Actuator 의존성을 추가해주기만 하면 이런 기능들과 관련한 endpoint를 자동으로 제공해준다고 한다!! (1) Spring Actuator 의존성 추가 maven 추가 gradle 추가 (2) Spring Actuator에서 제공하는 Endpoint HTTP 메…","fields":{"slug":"/spring-001-health-check/"},"frontmatter":{"categories":"Spring","title":"Spring Actuator + uptime-kuma로 헬스 체크 만들기","date":"September 01, 2022"}},"next":{"fields":{"slug":"/aws-003-github-action-with-codedeploy-2/"}},"previous":null}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
