@@ -1,0 +1,123 @@
+---
+emoji: 💻
+title: MySQL 스카마 내 전체 테이블 목록 및 컬럼 정보 조회.
+date: '2022-09-14 00:00:00'
+author: 막걸리에 감자전
+tags: sql mysql
+categories: sql mysql
+---
+
+```sql
+SELECT a.table_name       AS 'table_name',
+       b.table_comment    AS 'table_comment',
+       a.ordinal_position AS 'no',
+       a.column_name      AS 'column_name',
+       a.column_comment   AS 'column_comment',
+       a.column_type      AS 'type',
+       a.column_key       AS 'KEY',
+       a.is_nullable      AS 'NULL',
+       a.extra            AS 'auto',
+       a.column_default      'default'
+FROM information_schema.columns a
+         INNER JOIN information_schema.tables b ON a.table_name = b.table_name AND a.table_catalog = b.table_catalog AND a.table_schema = b.table_schema
+WHERE a.table_schema = 'eco'
+-- AND TABLE_NAME IN ('테이블명','테이블명','테이블명')
+ORDER BY a.table_name, a.ordinal_position
+```
+
+INFORMATION_SCHEMA는 MySQL에서 제공하는 DB 관련 정보들을 저장하고 있는 데이터베이스이다.  
+스키마 별로 조회도 가능하고, 특정 테이블에 대해서만도 조회가 가능하다.
+
+* 참고
+```sql
+use information_schema;
+show TABLES;
+```
+이와 같이 information_schema 데이터베이스의 테이블들을 조회해보면 많은 정보들이 들어있다.
+```text
+ALL_PLUGINS
+APPLICABLE_ROLES
+CHARACTER_SETS
+CHECK_CONSTRAINTS
+COLLATIONS
+COLLATION_CHARACTER_SET_APPLICABILITY
+COLUMNS
+COLUMN_PRIVILEGES
+ENABLED_ROLES
+ENGINES
+EVENTS
+FILES
+GLOBAL_STATUS
+GLOBAL_VARIABLES
+KEYWORDS
+KEY_CACHES
+KEY_COLUMN_USAGE
+OPTIMIZER_TRACE
+PARAMETERS
+PARTITIONS
+PLUGINS
+PROCESSLIST
+PROFILING
+REFERENTIAL_CONSTRAINTS
+ROUTINES
+SCHEMATA
+SCHEMA_PRIVILEGES
+SESSION_STATUS
+SESSION_VARIABLES
+STATISTICS
+SQL_FUNCTIONS
+SYSTEM_VARIABLES
+TABLES
+TABLESPACES
+TABLE_CONSTRAINTS
+TABLE_PRIVILEGES
+TRIGGERS
+USER_PRIVILEGES
+VIEWS
+CLIENT_STATISTICS
+INDEX_STATISTICS
+INNODB_SYS_DATAFILES
+GEOMETRY_COLUMNS
+INNODB_SYS_TABLESTATS
+SPATIAL_REF_SYS
+INNODB_BUFFER_PAGE
+INNODB_TRX
+INNODB_CMP_PER_INDEX
+INNODB_METRICS
+INNODB_LOCK_WAITS
+INNODB_CMP
+THREAD_POOL_WAITS
+INNODB_CMP_RESET
+THREAD_POOL_QUEUES
+TABLE_STATISTICS
+INNODB_SYS_FIELDS
+INNODB_BUFFER_PAGE_LRU
+INNODB_LOCKS
+INNODB_FT_INDEX_TABLE
+INNODB_CMPMEM
+THREAD_POOL_GROUPS
+INNODB_CMP_PER_INDEX_RESET
+INNODB_SYS_FOREIGN_COLS
+INNODB_FT_INDEX_CACHE
+INNODB_BUFFER_POOL_STATS
+INNODB_FT_BEING_DELETED
+INNODB_SYS_FOREIGN
+INNODB_CMPMEM_RESET
+INNODB_FT_DEFAULT_STOPWORD
+INNODB_SYS_TABLES
+INNODB_SYS_COLUMNS
+INNODB_FT_CONFIG
+USER_STATISTICS
+INNODB_SYS_TABLESPACES
+INNODB_SYS_VIRTUAL
+INNODB_SYS_INDEXES
+INNODB_SYS_SEMAPHORE_WAITS
+INNODB_MUTEXES
+user_variables
+INNODB_TABLESPACES_ENCRYPTION
+INNODB_FT_DELETED
+THREAD_POOL_STATS
+```
+
+나중에 다른 필요한 정보가 있을때 그때 다시 알아보도록 하자....
+
