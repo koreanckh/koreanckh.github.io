@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/sql",
+    "result": {"pageContext":{"currentCategory":"sql","categories":["All","sql","mysql","Spring","블로그","AWS","Git","잡담","featured"],"edges":[{"node":{"id":"d7513549-56f6-5a51-8036-938e48df2f9c","excerpt":"INFORMATION_SCHEMA는 MySQL에서 제공하는 DB 관련 정보들을 저장하고 있는 데이터베이스이다. 스키마 별로 조회도 가능하고, 특정 테이블에 대해서만도 조회가 가능하다. 참고 이와 같이 information_schema 데이터베이스의 테이블들을 조회해보면 많은 정보들이 들어있다. 나중에 다른 필요한 정보가 있을때 그때 다시 알아보도록 하자…","fields":{"slug":"/sql-001/"},"frontmatter":{"categories":"sql mysql","title":"MySQL 스카마 내 전체 테이블 목록 및 컬럼 정보 조회.","date":"September 14, 2022"}},"next":{"fields":{"slug":"/spring-001-health-check/"}},"previous":null}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
