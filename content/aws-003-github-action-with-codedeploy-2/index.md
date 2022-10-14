@@ -40,3 +40,8 @@ categories: 블로그 AWS Git
 ![aws-003-9.png](aws-003-9.png)
 
 EC2 서버에 배포해줄 CodeDeploy를 만들어주자.
+
+
+# 6. CodeDeploy 용 IAM 만들기
+> IAM은 일종의 AWS 접속용 계정을 만들어주는 것으로 보면 될듯..
+
