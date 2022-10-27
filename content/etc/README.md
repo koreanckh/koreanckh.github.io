@@ -1,3 +1,11 @@
+---
+emoji: 🔮
+title: 스프링 부트 참고가이드
+date: '2021-07-06 00:00:00'
+author: 줌코딩
+tags: springboot
+categories: etc
+---
 > 출처 : https://github.com/ihoneymon/translate-spring-boot-reference
 > 
 > 개인적으로 공부하려고 가져옴.. 문제시 삭제..

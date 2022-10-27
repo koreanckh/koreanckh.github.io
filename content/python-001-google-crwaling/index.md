@@ -4,7 +4,7 @@ title: python으로 구글 이미지 크롤링 하는법
 date: '2022-10-27 22:00:00'
 author: 줌코딩
 tags: python 크롤링 crawling
-categories: python
+categories: Python
 ---
 
 ## 1. 크롤링을 하게 된 이유

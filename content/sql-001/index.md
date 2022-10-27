@@ -4,7 +4,7 @@ title: MySQL 스카마 내 전체 테이블 목록 및 컬럼 정보 조회.
 date: '2022-09-14 00:00:00'
 author: 막걸리에 감자전
 tags: sql mysql
-categories: sql mysql
+categories: Sql Mysql
 ---
 
 ```sql
