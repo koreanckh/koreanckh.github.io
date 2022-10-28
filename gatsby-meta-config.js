@@ -1,5 +1,5 @@
 module.exports = {
-  title: `시행착오를 겪다`,
+  title: `고민의 흔적`,
   description: `느낌 정도만 알고있던 지식의 퍼즐을 맞춰보자.`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://koreanckh.github.io/`,
