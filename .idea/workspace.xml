@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="17808f43-efcd-422f-8cc3-43b94954f236" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/etc/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/etc/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/python-001-google-crwaling/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/python-001-google-crwaling/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/sql-001/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/sql-001/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +32,13 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "prettierjs.PrettierConfiguration.Package": "/Users/choi/koreanckh.github.io/node_modules/prettier"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/content" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/content" />
@@ -78,6 +77,7 @@
       <workItem from="1663550712570" duration="613000" />
       <workItem from="1663551338161" duration="1625000" />
       <workItem from="1665720378046" duration="1805000" />
+      <workItem from="1668485720815" duration="3458000" />
     </task>
     <servers />
   </component>
